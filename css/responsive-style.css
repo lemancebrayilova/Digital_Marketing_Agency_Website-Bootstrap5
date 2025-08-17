@@ -1,10 +1,18 @@
 @media (max-width: 1300px) {
     /* Navbar */
-
+    .header_wrapper .menu-navbar-nav{
+        width: auto;
+    }
 }
 
 @media (max-width: 1230px) {
     /* Navbar */
+    .header_wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 12px 10px !important;
+    }
 
     /* Banner */
     
@@ -12,6 +20,9 @@
 
 @media (max-width: 1070px) {
     /* Navbar */
+    .header_wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
 
     /* About */
     
@@ -19,6 +30,28 @@
 
 @media (max-width: 991px) {
     /* Navbar */
+    .header_wrapper .navbar-brand img{
+        width: 180px;
+    }
+    .header_wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .header_wrapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 12px 29px !important;
+    }
+    .header_wrapper .navbar-collapse{
+        background: var(--bg-white);
+    }
 
     /* Banner */
 
@@ -34,5 +67,5 @@
     /* FAQs */
 
     /* Footer */
-    
+
 }
