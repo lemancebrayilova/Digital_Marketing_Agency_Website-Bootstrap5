@@ -66,3 +66,33 @@ body{
     background-color: transparent;
     border: 2px solid var(--text-dark-gray);
 }
+
+/* Navbar */
+.header_wrapper .navbar{
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.header_wrapper .navbar-brand img{
+    max-width: 210px;
+    height: auto;
+}
+.header_wrapper .menu-navbar-nav{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.header_wrapper .nav-item{
+    margin: 0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+    font-weight: var(--bold-font-weight);
+    font-size: 18px;
+    color: var(--text-dark-gray);
+    line-height: 1;
+}
+.header_wrapper .nav-item .nav-link.active{
+    color: var(--text-dark-green);
+}
