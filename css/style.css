@@ -140,7 +140,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .banner_wrapper .banner-subtitle{
     font-size: 24px;
     font-weight: 700;
@@ -148,7 +147,6 @@ body{
     margin-bottom: 15px;
     color: var(--text-light-3);
 }
-
 .banner_wrapper .banner-title{
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -158,11 +156,9 @@ body{
     margin-bottom: 25px;
     color: var(--text-black);
 }
-
 .banner_wrapper .banner-title span{
     color: var(--text-dark-green);
 }
-
 .banner_wrapper .banner-title-next{
     font-size: 17px;
     font-weight: 600;
@@ -171,10 +167,25 @@ body{
     max-width: 450px;
     color: var(--text-light-2);
 }
-
 .banner_wrapper .learn-more-btn-section{
     display: flex;
     justify-content: left;
     align-items: center;
     margin-top: 20px;
+}
+.banner_wrapper .header-img-section img{
+    width: 100%;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
