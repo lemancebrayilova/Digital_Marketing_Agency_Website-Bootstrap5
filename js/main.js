@@ -10,6 +10,14 @@ window.onscroll = function() {
 }
 
 // Nav Hide
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".nav-collapse.collapse");
+
+navBar.forEach(function(a) {
+    a.addEventListener("click", function() {
+        navCollapse.classList.remove("show");
+    })
+})
 
 // Owl Carousel
 $(document).ready(function() {
