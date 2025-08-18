@@ -268,3 +268,38 @@ body{
     line-height: 1.5;
     color: var(--text-light-2);
 }
+
+/* Features */
+.features_wrapper{
+    padding: 100px 0 80px;
+    background: var(--bg-light-2);
+}
+.features_wrapper .features_subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-2);
+}
+.features_wrapper .features_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.features_wrapper h3{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: var(--bold-font-weight);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--text-black);
+}
+.features_wrapper .features_text{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
