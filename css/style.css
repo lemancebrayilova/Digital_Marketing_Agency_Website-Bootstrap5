@@ -716,3 +716,23 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+
+/* Width */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background: var(--bg-light-2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: var(--bg-black);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: var(--bg-black);
+}
